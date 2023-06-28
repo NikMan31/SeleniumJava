@@ -38,5 +38,6 @@ public class AdvancedMultiWindowsHandle {
                                             // .split(" ") //This will split string from  {space} means [mentor@rahulshettyacademy.com, with, below, template, to, receive, response] and among them choosing[0]
         driver.switchTo().window(parentalWindows);
         driver.findElement(By.id("username")).sendKeys(emailAddressFromChildWindows);
+
     }
 }
